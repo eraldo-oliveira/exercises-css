@@ -1,0 +1,57 @@
+
+.float-one {
+    float: left;
+    width: 191px;
+    height: 88px;
+    background-color: #ACF414;
+}
+
+.float-two {
+    float: left;
+    width: 191px;
+    height: 88px;
+    background-color: #7A54E6;
+}
+
+.float-three {
+    float: left;
+    width: 191px;
+    height: 88px;
+    background-color: #CC1298;
+}
+
+.float-four {
+    float: left;
+    width: 669px;
+    height: 88px;
+    background-color: #D9D9D9;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.central {
+    border: red;
+    background-color: #red;
+
+}
+
+.float-a {
+    float: left;
+}
+
+.float-b {
+    float: left;
+}
+
+.float-c {
+    float: left;
+}
+
+.float-d {
+    float: left;
+}
+
