@@ -1,4 +1,15 @@
 
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    padding: 20px;
+}
+
+.border {
+    padding: 20px;
+}
+
 .float-one {
     float: left;
     width: 191px;
@@ -22,7 +33,7 @@
 
 .float-four {
     float: left;
-    width: 669px;
+    width: 720px;
     height: 88px;
     background-color: #D9D9D9;
 }
@@ -34,24 +45,15 @@
 }
 
 .central {
-    border: red;
-    background-color: #red;
-
+    border: 1px solid yellow;
+    background-color: #EEFFFF;
+    margin: 20px;
 }
 
-.float-a {
-    float: left;
-}
-
-.float-b {
-    float: left;
-}
-
-.float-c {
-    float: left;
-}
-
-.float-d {
-    float: left;
+.central > div {
+    display: inline-block;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
