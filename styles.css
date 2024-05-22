@@ -1,7 +1,9 @@
 
 h1 {
     font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     font-size: 64px;
     padding: 20px;
 }
@@ -45,7 +47,7 @@ h1 {
 }
 
 .horizontal-bar {
-    border: 1px solid yellow;
+    border: 1px solid #3172EF;
     background-color: #EEFFFF;
     margin: 20px;
 }
@@ -53,7 +55,8 @@ h1 {
 .horizontal-bar > div {
     display: inline-block;
     padding: 20px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
