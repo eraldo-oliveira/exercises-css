@@ -6,7 +6,7 @@ h1 {
     padding: 20px;
 }
 
-.border {
+.box-color {
     padding: 20px;
 }
 
@@ -44,13 +44,13 @@ h1 {
     clear: both;
 }
 
-.central {
+.horizontal-bar {
     border: 1px solid yellow;
     background-color: #EEFFFF;
     margin: 20px;
 }
 
-.central > div {
+.horizontal-bar > div {
     display: inline-block;
     padding: 20px;
     font-family: "Inter", sans-serif;
