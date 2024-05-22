@@ -1,0 +1,31 @@
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    background-color: #89BA21;
+    position: relative
+}
+
+.square2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    background-color: #AFE241;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 10;
+}
+
+.square3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    background-color: #9ABD50;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 1;
+}
+
