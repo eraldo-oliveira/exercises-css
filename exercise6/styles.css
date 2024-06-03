@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 80%;
+    margin:100px auto;
+    margin-left: 80px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.box {
+    transition: all 250ms ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    color: yellow;
+}
+
+.box:hover > div {
+    filter: grayscale(100%);
+}
+
+.img1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOPQr3PU74ReQOGzlnMMxNmv4E7AJ1E2wBUw&s);
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZZy8uuUMtQmB_tfBwN0BXR6TrOkxMtzhMQ&s);
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img3 {
+    background-image: url(https://www.phaidon.com/resource/persistenceofmemory1931.jpg);
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img4 {
+    background-image: url(https://www.mauritshuis.nl/media/wlola5to/0670_repro_2.jpg?center=0.42060129980199951,0.47243107769423559&mode=crop&width=2000&height=0&rnd=133443375703200000&quality=70);
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
