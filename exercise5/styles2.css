@@ -1,0 +1,31 @@
+
+
+.ball-1 {
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #ff97c0;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ball-2 {
+    top: 100px;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+    background: #0097c0;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.animation:active > .ball-1 {
+    transition: all 1s ease-out;
+    left: 130px;
+}
+
+.animation:active > .ball-2 {
+    transition: all 1s ease-out 700ms;
+    left: 500px;
+}
